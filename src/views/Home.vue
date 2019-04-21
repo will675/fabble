@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <HelloFabble msg='can you see me?'/>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import HelloFabble from '../components/HelloFabble'
 
   export default {
     components: {
-      HelloWorld
+      HelloFabble
     }
   }
 </script>
