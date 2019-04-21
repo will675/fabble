@@ -1,13 +1,13 @@
 <template>
-  <HelloFabble msg='can you see me?'/>
+  <Products/>
 </template>
 
 <script>
-  import HelloFabble from '../components/HelloFabble'
+  import Products from '../components/Products'
 
   export default {
     components: {
-      HelloFabble
+      Products
     }
   }
 </script>
