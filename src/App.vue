@@ -1,8 +1,29 @@
 <template>
-  <div id="app">
-    <div id="nav">
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <Header/>
+
+    <v-content>
+      <router-view/>
+    </v-content>
+
+    <Footer/>
+  </v-app>
 </template>
 
+<script>
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+
+export default {
+  name: "App",
+  data() {
+    return {
+    };
+  },
+  components: {
+    Header,
+    Footer
+  }
+};
+</script>

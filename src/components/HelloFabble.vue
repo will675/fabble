@@ -1,7 +1,9 @@
 <template>
-  <div id="mainBody">
+  <v-container>
+    <div id="mainBody">
     <h1>{{ msg }}</h1>
   </div>
+  </v-container>
 </template>
 
 <script>
@@ -15,7 +17,7 @@ export default {
 
 <style lang="scss">
  H1 {
-   color: #ffffff;
+   color: #080808;
    font-family: 'Helvetica Neue', sans-serif;
    font-size: 275px;
    font-weight: bold;
