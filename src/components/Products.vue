@@ -5,7 +5,7 @@
         <v-container grid-list-sm fluid>
           <v-layout row wrap>
             <v-flex
-              v-for="n in 21"
+              v-for="n in 18"
               :key="n"
               xs4
               d-flex

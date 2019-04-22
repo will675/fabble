@@ -22,14 +22,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/signin',
+      path: '/sign-in',
       name: 'signin',
-      component: () => import(/* webpackChunkName: "signin" */ './views/SignIn.vue')
+      component: () => import('./views/SignIn.vue')
     },
     {
-      path: '/joinus',
+      path: '/join-us',
       name: 'joinus',
-      component: () => import(/* webpackChunkName: "joinus" */ './views/JoinUs.vue')
+      component: () => import('./views/JoinUs.vue')
     },
     
   ]

@@ -10,9 +10,9 @@
         </v-list-tile>
       </v-list>
     </v-menu>
-    <v-toolbar-title>
-      <span>fabble</span>
-    </v-toolbar-title>
+      <router-link to="/">
+    <v-toolbar-title to="/">fabble</v-toolbar-title>
+      </router-link>
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <v-btn flat>search</v-btn>
@@ -27,10 +27,17 @@ export default {
   data: () => ({
       items: [
         { title: 'sign in',
-        view: 'signin' },
+        view: 'sign-in' },
         { title: 'join us',
-        view: 'joinus' }
+        view: 'join-us' }
       ]
     })
 };
 </script>
+
+<style scoped>
+a {
+    color: black;
+    text-decoration: none;
+}
+</style>

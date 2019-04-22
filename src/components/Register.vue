@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "Register",
   data() {
     return {
     valid: false,

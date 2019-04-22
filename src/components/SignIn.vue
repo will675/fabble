@@ -1,14 +1,12 @@
 <template>
   <v-container fluid>
-    <v-layout>
-      <h1>All about fabble</h1>
-    </v-layout>
+      <h1>sign in</h1>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "About"
+  name: "SignIn"
 };
 </script>
 
